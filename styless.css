@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-weight: bold;
+  padding: 20px;
+  background: linear-gradient(135deg, #2220b3a6, #6a00ff); /* Fondo con gradiente */
+  color: #fff;
+}
+
+
+#paletteContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaciado entre elementos */
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff; /* Fondo blanco para contraste */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el contenedor */
+}
+
+.paletteItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+  cursor: pointer;
+}
+
+.paletteItem:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Cambio de color al pasar el cursor */
+  transform: scale(1.02); /* Ligera ampliación */
+}
+
+.paletteItem span {
+  padding: 5px 10px;
+  background-color: #000; /* Fondo negro para contraste */
+  color: #fff; /* Texto blanco */
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px; /* Bordes redondeados */
+  text-align: center;
+  min-width: 60px; /* Asegura un tamaño uniforme */
+}
+
+button, h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  width: 100%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #000;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #09062580;
+  transform: scale(1.05); /* Ligera ampliación */
+}

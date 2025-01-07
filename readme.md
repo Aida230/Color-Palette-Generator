@@ -30,7 +30,9 @@ Este proyecto es una herramienta simple para generar paletas de colores aleatori
 - Puedes cambiar el número de colores generados modificando la constante `PALETTE_SIZE` en el archivo `script.js`.
 - Los estilos del diseño pueden ser modificados en el archivo `styless.css`.
 
-## Video de demostración
+## Imagen y Video de demostración
+
+![Video de demostración](./video/palette.png)
 
 ![Video de demostración](./video/paleta.mp4)
 
